@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: system-ui, "Microsoft YaHei", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e3a8a, #6d28d9);
+  color: #fff;
+  text-align: center;
+}
+header h1 { font-size: 2rem; margin-bottom: .5rem; }
+header p { opacity: .8; margin-bottom: 2rem; }
+button {
+  padding: .7rem 1.6rem;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #1e3a8a;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover { background: #e5e7eb; }
+#msg { margin-top: 1rem; }
